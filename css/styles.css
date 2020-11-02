@@ -1,0 +1,199 @@
+/*Styles for my classwork site*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background: #fcf1f1;
+    font-family: Raleway, verdana;
+    line-height: 1.4;
+/*    height: 100%;*/
+}
+.inner main{
+    background: yellow;
+}
+/*I'll be using bg colors, heights, widths and floats for my containers - no content yet.*/
+
+header {
+    background: #1a1c20;
+    overflow: hidden;
+}
+
+#logo {
+    width: 170px;
+    margin: 20px 25px 20px 0;
+    display: inline;
+    float: left;
+}
+.row {
+/*    display: grid;*/
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+nav {
+    height: 50px;
+    line-height: 50px;
+/*    this will center my content vertically*/
+    background: #f9813a;
+/*    border-top: 1px solid #fff;*/
+}
+nav ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    width: 16.66%;
+/*    100 % 6*/
+}
+
+nav a {
+    color: #f1f3f8;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #8d93ab;
+    display: block;
+/*    anchor tag is an inline element, so has to display block*/
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+.mamp-title {
+    margin: 30px auto 10px auto;
+    text-align: center;
+}
+.monday {
+    background: #fff8cd;
+}
+.friday {
+    background: #e8ffff;
+}
+.saturday {
+    background: #c3aed6;
+}
+.sunday {
+    background: #d9adad;
+}
+.tuesday {
+    background: #ffe2e2;
+}
+.wednesday {
+    background: #bfdcae;
+}
+.thursday {
+    background: #feceab;
+}
+/***********IMAGES***********/
+.profile_img {
+    border-radius: 50%;
+    width: 40%;
+/*    display: inline;*/
+    float: left;
+    margin: 0 30px 17px 0;
+}
+.mamp {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.valid-icon {
+    padding: 4px;
+    height: 47px;
+    
+}
+/***************************/
+main {
+    width: 62%;
+    float: left;
+    padding: 20px;
+}
+
+aside {
+    width: 35%;
+    float: right;
+    background: #ffd5cd;
+    padding-bottom: 20px;
+    
+    
+}
+aside ul {
+    margin: 20px 0 0 20px;
+    list-style-type: none;
+    font-size: 0.95rem;
+}
+aside ul a {
+    text-decoration: none;
+    color: #000;
+}
+aside ul a:hover {
+    color: #666;
+}
+footer {
+    background: #f9813a;
+    clear: both;
+    color: #f1f3f8; 
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f1f3f8;
+}
+
+footer a:hover {
+    color: #d6e0f0;
+}
+
+.copyright {
+    height: 50px;
+    line-height: 50px;
+/*    background: #8d93ab;*/
+   
+}
+.copyright li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+/*********Typography********/
+
+.welcome {
+    margin: 0 0 30px 0;
+    font-size: 1.8rem;
+}
+.headtext {
+    margin: 45px 0 0 0;
+    color: #f1f3f8;
+    float: left;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    margin: 25px 20px 20px 20px;
+}
+.h2-head {
+    font-size: 1.8rem;
+    margin: 0px 0 20px 0;
+    line-height: 2;
+}
+.daily-text {
+    padding: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
