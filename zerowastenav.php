@@ -5,7 +5,25 @@ include('includes/header.php');
 
 ?>
 <main>
+    
+<!----------    tempo nav links delete when have proper nav------------->
+    
+<div class="cat-nav">
+<!--
+        <a href="#">Wireframing</a>
+        <a href="#">Web Designing</a>
+        <a href="#">Web Editing</a>
+-->
+        <p>Go to ></p>
+        <a href="scoopwix.php">Scoop on Wix</a>
+        <a href="scoopsquare.php">Scoop on Square</a>
+        <a href="zerowastenav.php">School Project: Zero-waste nav app</a>
+        <a href="mindfulgiftguide.php">School Project: Mindful gift guide</a>
 
+    </div>
+    
+    <!----------    end draft nav links------------->
+    
     <div class="testimonials">
         <div class="test">
 
