@@ -9,13 +9,9 @@ include('includes/header.php');
                 <h2 class="welcome">Welcome to my portfolio!</h2>
                     <div class="profile_img">
                         <img src ="images/GiftRedimension.png" alt="GiftImage"> </div>
-<!--                <p>My name is Gift. I'm studying Programming Associate Degree at Seattle Central College. I also work as a web manager at a student-run newspaper - The Seattle Collegian. Despite uncertainties of everything we're facing right now, I still have a dream. I want to master my skills in web development and programming and utilize them in the causes I care about most, the environment and climate change.</p>-->
-                <p>My name is Gift, a Programming student at Seattle Central College and a web developer at The Seattle Collegian, a student-run newspaper. I also build and redesign websites for local small businesses. Starting from clarifying the purposes of their online presence, values, and unique selling points, curating ideas and communication methods, structuring the layout, and building the website.</p>
+
+                    <p class="dark_hightlight">(This portfolio is in the making. I write about the progress and challenges <a href="https://community.codenewbie.org/gift_tanakan/in-progress-portfolio-wp-projects-added-project-nav-and-hesitation-part-3-55o6" target="_blank" id="link">here</a>. Give it a read!)</p> <p>Hi, Gift here, a web developer at The Seattle Collegian, a student-run newspaper and a Programming student at Seattle Central College. I love working on websites - from clarifying ideas and communication methods, wireframing, designing, redesigning, developing and customizing, to supporting and maintenance. Check out my work below or learn more about me and my services <a href="about.php" id="link">here</a>.</p>
                 
-<!--
-                I'd be more than happy to work with you whether you want to redesign the existing website or build a new one. Explore my work and and contact me.  
-                </p>
--->
                 </div>
                 <div id="work-section">
                 <h2>Work &amp; Experience</h2>
@@ -23,17 +19,14 @@ include('includes/header.php');
                 <div class="container">
                     <div class="item project1">
                         <div class="work_img">
-                            <img src ="images/scoop_home.png" alt="Scoop Marketplace Home Page">
+                            <a href="scoopwix.php"><img src ="images/scoop_home.png" alt="Scoop Marketplace"></a>
                         </div>
                             <div class="work_points">
-                                <h3><a href="#">Project1</a></h3>
+                                <h3><a href="scoopwix.php">Scoop Marketplace</a></h3>
                                 <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
+                                    <li>Wix website for a zero-waste grocery store</li>
+                                    <li>Layout &amp; mobile responsive design</li>
+                                    <li>Tools integration</li>
                                 
                                 </ul>
                     </div>
@@ -41,17 +34,14 @@ include('includes/header.php');
                     
                     <div class="item project2">
                         <div class="work_img">
-                            <img src ="images/scoop_online_home.png" alt="Scoop Marketplace Home Page">
+                            <a href="zerowastenav.php"><img src ="images/zero_snapshot.png" alt="Zero Waste Navigator Introduction"></a>
                         </div>
                             <div class="work_points">
-                                <h3><a href="#">Project2</a></h3>
+                                <h3><a href="zerowastenav.php">Zero Waste Navigator Introduction</a></h3>
                                 <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
+                                    <li>Introduction website for an application</li>
+                                    <li>HTML &amp; CSS</li>
+                                    <li>Layout &amp; theme design</li>
                                 
                                 </ul>
                     </div>
@@ -60,17 +50,14 @@ include('includes/header.php');
                     
                     <div class="item project3">
                         <div class="work_img">
-                            <img src ="images/scoop_home.png" alt="Scoop Marketplace Home Page">
+                            <a href="mindfulgiftguide.php"><img src ="images/gift_home.png" alt="Guide: Mindful gifts for this holiday"></a>
                         </div>
                             <div class="work_points">
-                                <h3><a href="#">Project3</a></h3>
+                                <h3><a href="mindfulgiftguide.php">Guide: Mindful gifts for this holiday</a></h3>
                                 <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
+                                    <li>A guiding website to mindful gift giving</li>
+                                    <li>HTML, CSS, PHP &amp; SQL</li>
+                                    <li>Layout &amp; content design</li>
                                 
                                 </ul>
                     </div>
@@ -78,17 +65,14 @@ include('includes/header.php');
                     
                     <div class="item project4">
                         <div class="work_img">
-                            <img src ="images/scoop_online_home.png" alt="Scoop Marketplace Home Page">
+                            <a href="thecraftminded.php"><img src ="images/tcm_home.png" alt="The Craft Minded Blog"></a>
                         </div>
                             <div class="work_points">
-                                <h3><a href="#">Project4</a></h3>
+                                <h3><a href="thecraftminded.php">The Craft Minded Blog</a></h3>
                                 <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
+                                    <li>A WordPress blog based on interests</li>
+                                    <li>Plugins management</li>
+                                    <li>Site maintenance</li>
                                 
                                 </ul>
                     </div>
@@ -97,7 +81,7 @@ include('includes/header.php');
                     
                     </div> <!---end container-->
                     
-                    <button type="button" class="button"><a href="#">Browse More</a></button>
+                    <button type="button" class="button"><a href="projects.php">Browse More</a></button>
                     
             </div> <!--End work section--->
                 
@@ -109,9 +93,23 @@ include('includes/header.php');
 
                             <div>
 
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                </p>
-                                <p>"qui officia deserunt mollit anim id est laborum."</p>
+                                <p class="testtexts">"As Web Manager for the Seattle Collegian, Gift has truly lived up to her name. When we
+                    first made the offer of employment to her, we had not had the opportunity to meet in person due
+                    to the pandemic and the need to work remotely. As with many of the other staff members
+                    onboarded in 2020, it was hard to know what to expect or how Gift would fare learning the ropes
+                    from a distance, but I had high hopes that she would do well and find her rhythm.</p>
+
+                    <p class="testtexts">Rather than exhibiting any signs of difficulty in adjusting to her role, Gift instead jumped
+                    right in and set the bar for the Web Manager position higher than any of her predecessors have
+                    managed to attain. Gift rose to the occasion and then shattered my expectations time and again,
+                    and I cannot extol her praises enough. She has proven herself to be talented, skilled, prepared,
+                    thorough, attentive, adaptable, considerate, reliable, communicative, responsible, professional,
+                    and an all-around pleasure to work with. She has a great attitude and a way of anticipating the
+                    needs of the organization before anyone else, a combination that has made her a more than
+                    welcome addition to our professional family. She has been nothing short of invaluable to me and
+                    to the functioning of our website, and I highly recommend her work without question or
+                    reservation."</p>
+                <p class="bold">Astro Pittman - Editor-in-Chief at The Seattle Collegian</p>
                     </div>
                     </div> <!--end item-->
                     
@@ -151,39 +149,7 @@ include('includes/header.php');
                     
             </div>
             </main>
-            <!--   <        aside class="item related-links">Related Links</aside> -->
-            <aside>
-<!--
-            <h2>Platforms I use</h2>
-                <ul>
-                    <li>WordPress</li>
-                    <li>SquareUp</li>
-                    <li>GoDaddy</li>
-                    <li>Wix</li>
-                </ul>
--->
-<!--
-            <h2>Skills</h2>    
-                <ul>
-                    <li>Web audit</li>
-                    <li>Research &amp; documentation </li>
-                    <li>Web content planning</li>
-                    <li>Layout designing</li>
-                    <li>Wireframing</li>
-                    <li>Responsive Design</li>
-                    <li>HTML, CSS, PHP</li>
-                    
-                </ul>
--->
-<!--
-            <h2>Work</h2>
-                <ul>
-                    <li><a href="https://www.scoopmarketplace.com/" target="_blank">Scoop Marketplace</a></li>
-                    <li><a href="https://www.shopscooponline.com/" target="_blank">Scoop Marketplace Online Shop</a></li>
-
-                </ul>
--->
-            </aside>
+           
 <?php 
     include('includes/footer.php');
     ?>
