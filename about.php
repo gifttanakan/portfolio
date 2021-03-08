@@ -4,187 +4,53 @@ include('config.php');
 include('includes/header.php');
 
 ?>
-            <main>
-                <div id="short-bio">
-                <h2 class="welcome">Welcome to my portfolio!</h2>
-                    <div class="profile_img">
-                        <img src ="images/GiftRedimension.png" alt="GiftImage"> </div>
-<!--                <p>My name is Gift. I'm studying Programming Associate Degree at Seattle Central College. I also work as a web manager at a student-run newspaper - The Seattle Collegian. Despite uncertainties of everything we're facing right now, I still have a dream. I want to master my skills in web development and programming and utilize them in the causes I care about most, the environment and climate change.</p>-->
-                <p>My name is Gift, a Programming student at Seattle Central College and a web developer at The Seattle Collegian, a student-run newspaper. I also build and redesign websites for local small businesses. Starting from clarifying the purposes of their online presence, values, and unique selling points, curating ideas and communication methods, structuring the layout, and building the website.</p>
-                
-<!--
-                I'd be more than happy to work with you whether you want to redesign the existing website or build a new one. Explore my work and and contact me.  
-                </p>
--->
-                </div>
-                <div id="work-section">
-                <h2>Work &amp; Experience</h2>
-                    
-                <div class="container">
-                    <div class="item project1">
-                        <div class="work_img">
-                            <img src ="images/scoop_home.png" alt="Scoop Marketplace Home Page">
-                        </div>
-                            <div class="work_points">
-                                <h3><a href="#">Project1</a></h3>
-                                <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                
-                                </ul>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    <div class="item project2">
-                        <div class="work_img">
-                            <img src ="images/scoop_online_home.png" alt="Scoop Marketplace Home Page">
-                        </div>
-                            <div class="work_points">
-                                <h3><a href="#">Project2</a></h3>
-                                <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                
-                                </ul>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    
-                    <div class="item project3">
-                        <div class="work_img">
-                            <img src ="images/scoop_home.png" alt="Scoop Marketplace Home Page">
-                        </div>
-                            <div class="work_points">
-                                <h3><a href="#">Project3</a></h3>
-                                <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                
-                                </ul>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    <div class="item project4">
-                        <div class="work_img">
-                            <img src ="images/scoop_online_home.png" alt="Scoop Marketplace Home Page">
-                        </div>
-                            <div class="work_points">
-                                <h3><a href="#">Project4</a></h3>
-                                <ul>
-                                    <li>work1
-                    My name is Gift, a programming  </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                    <li>work1
-                    My name is Gift, a programming </li>
-                                
-                                </ul>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    
-                    </div> <!---end container-->
-                    
-                    <button type="button" class="button"><a href="#">Browse More</a></button>
-                    
-            </div> <!--End work section--->
-                
-                <div id="testimonials">
-                <h2>Testimonials</h2>
-                    
-                <div class="testimonials">
-                    <div class="test">
+<main>
+    <div id="about-bio">
+        <h2 class="welcome">About</h2>
+        <div class="profile_img">
+            <img src ="images/GiftRedimension.png" alt="GiftImage"> </div>
 
-                            <div>
+        <p>My name is Gift, a web developer at The Seattle Collegian, a student-run newspaper and a Programming student at Seattle Central College. I specialize in web design, web development, WordPress web development, security, maintenance, and integration. I'd be happy to work with you, especially if you're a small business owner or work in the sustainability field. My values align around minimal living, mindful consumption, and helping local businesses thrive.</p>
 
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                </p>
-                                <p>"qui officia deserunt mollit anim id est laborum."</p>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    <div class="test">
+        <div class="platform">
+            <h4>Here are the website builders I use:<span> WordPress, Wix, Square, GoDaddy, Square. I'm open to learn about other platforms as well.</span></h4> 
 
-                            <div>
-                                
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                </p>
-                                <p>"qui officia deserunt mollit anim id est laborum."</p>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    <div class="test">
+        </div>
+        
+        <div class="offer">
+            <h4>My services<span> (choose any or all)</span>:</h4>
 
-                            <div>
-                                
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                </p>
-                                <p>"qui officia deserunt mollit anim id est laborum."</p>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    <div class="test">
+            <ul>
+                <li><span class="pale_highlight">Clarification stage</span>: help identify the purposes of your online presence, curate ideas and communication methods</li>
+                <li><span class="pale_highlight">Design stage</span>: design/redesign website with wireframe</li>
+                <li><span class="pale_highlight">Development stage</span>: build/customize website, integrate third-party tools</li>
+                <li><span class="pale_highlight">Support stage(WordPress websites only)</span>: maintenance, security updates, manage plugins &amp; theme</li>
+                <li><span class="pale_highlight">Documentation</span>: library of content/tutorials/specific troubleshooting for future reference</li>
+            </ul>
+        </div>
+        
+        <div class="expect">
+            <h4>What to expect:</h4>
 
-                            <div>
-                                
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                </p>
-                                <p>"qui officia deserunt mollit anim id est laborum."</p>
-                    </div>
-                    </div> <!--end item-->
-                    
-                    </div> <!---end testimonials-->
-                    
-                    
-                    
-            </div>
-            </main>
-            <!--   <        aside class="item related-links">Related Links</aside> -->
-            <aside>
-<!--
-            <h2>Platforms I use</h2>
-                <ul>
-                    <li>WordPress</li>
-                    <li>SquareUp</li>
-                    <li>GoDaddy</li>
-                    <li>Wix</li>
-                </ul>
--->
-<!--
-            <h2>Skills</h2>    
-                <ul>
-                    <li>Web audit</li>
-                    <li>Research &amp; documentation </li>
-                    <li>Web content planning</li>
-                    <li>Layout designing</li>
-                    <li>Wireframing</li>
-                    <li>Responsive Design</li>
-                    <li>HTML, CSS, PHP</li>
-                    
-                </ul>
--->
-<!--
-            <h2>Work</h2>
-                <ul>
-                    <li><a href="https://www.scoopmarketplace.com/" target="_blank">Scoop Marketplace</a></li>
-                    <li><a href="https://www.shopscooponline.com/" target="_blank">Scoop Marketplace Online Shop</a></li>
+            <ul>
+                <li><span class="dark_hightlight">Clear communication</span>: You'll know what scope of work I cover and what not. For wireframe project, you'll get a concise, effective concept of how to communicate your values across the website.</li>
+                <li><span class="dark_hightlight">Use of robust tools</span>: Steamlined software tools will be used both for workflow  and project deliverables.</li>
+                <li><span class="dark_hightlight">Simple &amp; user-centric design</span>: Simplicity is key. You'll get deliverables that solve targeted problems and answer important questions.</li>
+                <li><span class="dark_hightlight">Timely-manner project delivery</span>: On-time project delivery, otherwise, clear communication will be provided beforehand.</li>
+                <li><span class="dark_hightlight">Thorough &amp; modular documentation</span>: All documents will be modularly constructed for easy search and usage.</li>
+            </ul>
+        </div>
 
-                </ul>
--->
-            </aside>
+
+        <div class="offer_bottom">
+            Not sure what you want? Explore my <a href="projects.php" id="link">work</a> and <a href="contact.php" id="link">contact</a> me! 
+        </div>
+    </div>
+
+
+
+</main>
+
 <?php 
-    include('includes/footer.php');
-    ?>
-            
+include('includes/footer.php');
+?>
