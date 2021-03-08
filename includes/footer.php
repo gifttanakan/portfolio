@@ -13,7 +13,7 @@
                         <li>All Rights Reserved</li>
                         
                         <li><a href="index.php">Web Design by Gift</a></li>
-                        <li><a href="https://github.com/Gift-Tanakan" target="_blank">My GitHub</a></li>
+                        <li><a href="https://github.com/Gift-Tanakan/portfolio" target="_blank">My GitHub</a></li>
                         
                     </ul>
                 
