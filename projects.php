@@ -4,140 +4,135 @@ include('config.php');
 include('includes/header.php');
 
 ?>
-<main>
-    <div id="work-section">
-        <h2>Projects</h2>
+<main id="projects">
+    <div>
+        <h2 class="welcome">Projects</h2>
     </div> <!--End work section--->
+    
+<!---------------- by gallery --------------------->
 
-    <div class="cat-nav">
-<!--
-        <a href="#">Wireframing</a>
-        <a href="#">Web Designing</a>
-        <a href="#">Web Editing</a>
--->
-        <p>Go to ></p>
-        <a href="scoopwix.php">Scoop on Wix</a>
-        <a href="scoopsquare.php">Scoop on Square</a>
-        <a href="zerowastenav.php">School Project: Zero-waste nav app</a>
-        <a href="mindfulgiftguide.php">School Project: Mindful gift guide</a>
 
+<div class="gallery">
+    <h3>By snapshots</h3> 
+    <div class="gallery-body">
+        <div class="tile1"> 
+            <a href="scoopwix.php"><img src="images/scoop_home.png" alt="Scoop Marketplace" title="Scoop Marketplace"></a>
+        </div>
+        <div class="tile2">  
+            
+            <a href="scoopsquare.php"><img src="images/scoop_online_home.png" alt="Scoop Marketplace Online Shop" title="Scoop Marketplace Online Shop"></a>
+        </div>
+        <div class="tile3">  
+            
+            <a href="scoopwireframe.php"><img src="images/scoop_wire_1.png" alt="Scoop Homepage Wireframe" title="Scoop Homepage Wireframe"></a>
+        </div>
+        <div class="tile4">  
+            
+            <a href="zerowastenav.php"><img src="images/zero_snapshot.png" alt="Zero Waste Navigator Introduction" title="Zero Waste Navigator Introduction"></a>
+        </div>
+        <div class="tile5">  
+            
+            <a href="mindfulgiftguide.php"><img src="images/gift_home.png" alt="Guide: Mindful gifts for this holiday" title="Guide: Mindful gifts for this holiday"></a>
+        </div>
+        <div class="tile6">  
+            
+            <a href="artwireframe.php"><img src="images/artwire_snapshot.png" alt="The Diversity of Art Wireframe" title="The Diversity of Art Wireframe"></a>
+        </div>
+        <div class="tile7"> 
+            
+            <a href="diversityofart.php"><img src="images/art_snapshot.png" alt="The Diversity of Art" title="The Diversity of Art"></a>
+        </div>
+        <div class="tile8"> 
+            
+            <a href="thecraftminded.php"><img src="images/tcm_home.png" alt="The Craft Minded Blog" title="The Craft Minded Blog"></a>
+        </div>
+        <div class="tile9">  
+            
+            <a href="collegian.php"><img src="images/collegian_snapshot.png" alt="The Seattle Collegian" title="The Seattle Collegian"></a>
+        </div>
+        
+        <div class="tile10">  
+            
+        </div>
     </div>
+</div> <!--end gallery-->
 
-    <div class="testimonials">
-        <div class="test">
-
-            <h3>Scoop Marketplace - Zero-waste grocery store</h3>
-
-            <div class="work_img">
-                <img src ="images/scoop_home_1280x729.png" alt="Scoop Marketplace Home Page">
-            </div>
-
-            <div class="work_points">
-                <h3>Website for a small business on Wix</h3>
+<!-------------    cat nav -------------->
+<div class="container">
+    
+    <div class="item project1">
+        <div class="work_points">
+            <h3>By projects</h3>
+            <ul>
+                <li>Current job
+                    <ul>
+                        <li><a href="collegian.php" id="project_link">The Seattle Collegian</a></li>
+                    </ul>
+                </li>
+                <li>Startup</li>
                 <ul>
-                    <li><strong>Store overview</strong>: Scoop Marketplace is a zero-waste grocery store orginally located in Seattle, now in Kirkland. The store lets customers bring their reusable containers to scoop package-free food, home goods, and personal care products in their desire amount.</li>
-                    <li><strong>Brief story</strong>: I was a founding member of Scoop Marketplace with a strong interest in helping </li>
-                    <li><strong>Platform</strong>: Wix</li>
-                    <li><strong>Accomplishments</strong>: 
-                        <ul>
-                            <li>Website development (entire site)</li>
-                            <li>Responsive design (mobile)</li>
-                        </ul>
-                    
-                    <li><strong>Note</strong>: Now the business has had a website makeover with another e-commerce platform.</li>
+                    <li><a href="scoopwix.php" id="project_link">Scoop Marketplace</a></li>
+                    <li><a href="scoopsquare.php" id="project_link">Scoop Marketplace Online Shop</a></li>
+                    <li><a href="scoopwireframe.php" id="project_link">Scoop Homepage Wireframe</a></li>
 
                 </ul>
-            </div>
-
-            <div class="work_img scroll">
-                <img src ="images/scoop_home_scroll.jpg" alt="Scoop Marketplace Homepage">
-            </div>
-
-            <div class="work_points">
-                <h3>Homepage (Scroll to view the whole page)</h3>
-            </div>
-
-            <div class="work_img scroll">
-                <img src ="images/scoop_media_page.jpg" alt="Scoop Marketplace Media Page">
-            </div>
-
-            <div class="work_points">
-                <h3>Media Page (Scroll to view the whole page)</h3>
-
-            </div>
-
-            <div class="work_img scroll">
-                <img src ="images/scoop_about_page.jpg" alt="Scoop Marketplace About Page">
-            </div>
-
-            <div class="work_points">
-                <h3>About Page (Scroll to view the whole page)</h3>
-
-            </div>
-
-            <div class="work_img scroll">
-                <img src ="images/scoop_blog_page.jpg" alt="Scoop Marketplace Blog Page">
-            </div>
-
-            <div class="work_points">
-                <h3>Blog Page (Scroll to view the whole page)</h3>
-
-            </div>
-
-            <div class="work_img scroll_mobile">
-                <img src ="images/scoop_home_mobile.png" alt="Scoop Marketplace Home Page">
-            </div>
-
-            <div class="work_points">
-                <h3>Responsive design for mobile (Scroll to view the whole page)</h3>
+                <li>School projects</li>
                 <ul>
-                <li><strong>Challenge</strong>: I was a founding member of Scoop Marketplace with a strong interest in helping </li>
-                <li><strong>Solution</strong>: I was a founding member of Scoop Marketplace with a strong interest in helping </li>
+                    <li><a href="zerowastenav.php" id="project_link">Zero Waste Navigator Introduction</a></li>
+                    <li><a href="mindfulgiftguide.php" id="project_link">Guide: Mindful gifts for holidays</a></li>
+                    <li><a href="diversityofart.php" id="project_link">The Diversity of Art</a></li>
+                    <li><a href="artwireframe.php" id="project_link">The Diversity of Art Wireframe</a></li>
+                </ul>
+                <li>Personal</li>
+                <ul>
+                    <li><a href="thecraftminded.php" id="project_link">The Craft Minded Blog</a></li>
                 </ul>
 
-            </div>
+            </ul>
+            
+        </div> <!---end work_points-->
+    </div> <!--end item-->
+
+    <div class="item project2">
+        <div class="work_points">
+            <h3>By technology</h3>
+            <ul>
+                <li>Wireframing (wireframe.cc/lucidchart)</li>
+                    <ul>
+                        <!--                            <li><a href="scoopwireframe.php?browseCategory=by_tech">Scoop Homepage Wireframe</a></li>-->
+                        <li><a href="scoopwireframe.php" id="project_link">Scoop Homepage Wireframe</a></li>
+                        <li><a href="artwireframe.php" id="project_link">The Diversity of Art Wireframe</a></li>
+                    </ul>
+                
+                <li>Web development (HTML/CSS/PHP/SQL)</li>
+                <ul>
+                    <li><a href="zerowastenav.php" id="project_link">Zero Waste Navigator Introduction</a></li>
+                    <li><a href="mindfulgiftguide.php" id="project_link">Guide: Mindful gifts for this holiday</a></li>
+                    <li><a href="diversityofart.php" id="project_link">The Diversity of Art</a></li>
+                </ul>
+                <li>WordPress</li>
+                <ul>
+                    <li><a href="thecraftminded.php" id="project_link">The Craft Minded Blog</a></li>
+                    <li><a href="collegian.php" id="project_link">The Seattle Collegian</a></li>
+                </ul>
+                <li>Website builders (Wix/Square)</li>
+                <ul>
+                    <li><a href="scoopwix.php" id="project_link">Scoop Marketplace</a></li>
+                    <li><a href="scoopsquare.php" id="project_link">Scoop Marketplace Online Shop</a></li>
+                </ul>
+
+            </ul>
+
+        </div>
+    </div> <!--end item-->
+</div> <!--- end container-->
 
 
-        </div> <!--end item-->
+<!-------------    end cat nav -------------->
 
-
-
-    </div> <!---end testimonials-->
-
+    <button type="button" class="button"><a href="scoopwireframe.php">Browse all</a></button>
 </main>
-<!--   <        aside class="item related-links">Related Links</aside> -->
-<aside>
-    <!--
-<h2>Platforms I use</h2>
-<ul>
-<li>WordPress</li>
-<li>SquareUp</li>
-<li>GoDaddy</li>
-<li>Wix</li>
-</ul>
--->
-    <!--
-<h2>Skills</h2>    
-<ul>
-<li>Web audit</li>
-<li>Research &amp; documentation </li>
-<li>Web content planning</li>
-<li>Layout designing</li>
-<li>Wireframing</li>
-<li>Responsive Design</li>
-<li>HTML, CSS, PHP</li>
 
-</ul>
--->
-    <!--
-<h2>Work</h2>
-<ul>
-<li><a href="https://www.scoopmarketplace.com/" target="_blank">Scoop Marketplace</a></li>
-<li><a href="https://www.shopscooponline.com/" target="_blank">Scoop Marketplace Online Shop</a></li>
-
-</ul>
--->
-</aside>
 
 <?php 
 include('includes/footer.php');
