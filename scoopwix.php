@@ -4,47 +4,39 @@ include('config.php');
 include('includes/header.php');
 
 ?>
-<main>
-<!----------    tempo nav links delete when have proper nav------------->
-    
-<div class="cat-nav">
-<!--
-        <a href="#">Wireframing</a>
-        <a href="#">Web Designing</a>
-        <a href="#">Web Editing</a>
--->
-        <p>Go to ></p>
-        <a href="scoopwix.php">Scoop on Wix</a>
-        <a href="scoopsquare.php">Scoop on Square</a>
-        <a href="zerowastenav.php">School Project: Zero-waste nav app</a>
-        <a href="mindfulgiftguide.php">School Project: Mindful gift guide</a>
+<main id="projects">
+    <div>
+        <h2 class="welcome">Scoop Marketplace</h2>
+    </div> <!--End work section--->
 
-    </div>
+    <!------------breadcrumb----------->
+    <ul class="breadcrumb">
+        <li><a href="projects.php" id="project_link">Projects</a></li>
+        <li><a href="scoopwix.php" id="project_link">Scoop Marketplace</a></li>
+    </ul>
+<!------------end breadcrumb----------->
     
-    <!----------    end draft nav links------------->
     <div class="testimonials">
         <div class="test">
 
-            <h3>Scoop Marketplace - Zero-waste grocery store</h3>
-
             <div class="work_img">
-                <img src ="images/scoop_home_1280x729.png" alt="Scoop Marketplace Home Page">
+                <img src ="images/scoop_home.png" alt="Scoop Marketplace Home Page">
             </div>
 
             <div class="work_points">
-                <h3>Website for a small business on Wix</h3>
+                <h3>Scoop Marketplace: Website for a small business</h3>
                 <ul>
-                    <li><strong>Store overview</strong>: Scoop Marketplace is a zero-waste grocery store orginally located in Seattle, now in Kirkland. The store lets customers bring their reusable containers to scoop package-free food, home goods, and personal care products in their desire amount.</li>
-                    <li><strong>Brief story</strong>: I was a founding member of Scoop Marketplace with a strong interest in helping </li>
-                    <li><strong>Platform</strong>: Wix</li>
+                    <li><strong>Store overview</strong>: Scoop Marketplace is a zero-waste grocery store orginally located in Seattle, now in Kirkland. The store lets customers bring their reusable containers to scoop package-free food, home goods, and personal care products in their desire amount. Packaged products are also available in compostable or reusable packaging.</li>
+                    <li><strong>Project overview</strong>: I was a founding member of Scoop Marketplace with a strong interest in low-waste living and sustainability. Working at Scoop was inspiring, it also proved that sustainable living has gained much more momentum than ever before. I was a part of building the brand online presence from the ground up. With budget limitation as a startup, I optimized the existing resources to the best of my ability.</li>
+                    <li><strong>Technology</strong>: Wix</li>
+                    <li><strong>Year</strong>: 2019-2020</li>
+                    <li><strong>Note</strong>: This website is no longer live. The business has had a website makeover with another e-commerce platform. Therefore, the domain name is redirected to the new website.</li>
                     <li><strong>Accomplishments</strong>: 
                         <ul>
                             <li>Website development (entire site)</li>
                             <li>Responsive design (mobile)</li>
                         </ul>
-                    
-                    <li><strong>Note</strong>: Now the business has had a website makeover with another e-commerce platform.</li>
-
+                    </li>
                 </ul>
             </div>
 
@@ -54,6 +46,11 @@ include('includes/header.php');
 
             <div class="work_points">
                 <h3>Homepage (Scroll to view the whole page)</h3>
+                <ul>
+                    <li><strong>Introduction section</strong>: Headline describing what the business is, store picture as cover image with call-to-action buttons, video and brief story of the store.</li>
+                    <li><strong>Product categories section (bubbles)</strong>: Represents visual product categories. Category name appears once hover over the bubble.</li>
+                    <li><strong>Recent blog posts section</strong>: Snapshots of recent blog posts.</li>
+                </ul>
             </div>
 
             <div class="work_img scroll">
@@ -62,7 +59,11 @@ include('includes/header.php');
 
             <div class="work_points">
                 <h3>Media Page (Scroll to view the whole page)</h3>
-
+                <ul>
+                    <li><strong>Description</strong>: Communicates the brand's values and seeks more media features.</li>
+                    <li><strong>Media logos</strong>: Link to each media feature article to build brand credibility.</li>
+        
+                </ul>
             </div>
 
             <div class="work_img scroll">
@@ -71,7 +72,10 @@ include('includes/header.php');
 
             <div class="work_points">
                 <h3>About Page (Scroll to view the whole page)</h3>
-
+                <ul>
+                    <li><strong>Description</strong>: Communicates the brand's values, mission and the founder story.</li>
+        
+                </ul>
             </div>
 
             <div class="work_img scroll">
@@ -90,8 +94,8 @@ include('includes/header.php');
             <div class="work_points">
                 <h3>Responsive design for mobile (Scroll to view the whole page)</h3>
                 <ul>
-                <li><strong>Challenge</strong>: I was a founding member of Scoop Marketplace with a strong interest in helping </li>
-                <li><strong>Solution</strong>: I was a founding member of Scoop Marketplace with a strong interest in helping </li>
+                <li><strong>Challenge</strong>: At that time, only laptop and mobile views were available to customize on Wix, not including tablet view. But it didn't automatically create the responsive design, supposedly due to the drag-and-drop function.</li>
+                <li><strong>Solution</strong>: Manually developed the mobile responsive design for every single page.</li>
                 </ul>
 
             </div>
@@ -99,44 +103,17 @@ include('includes/header.php');
 
         </div> <!--end item-->
 
+<!------------pagination------------>
 
+<div class="pagination breadcrumb">
+  <a href="collegian.php" id="project_link">&#10094; Previous</a>
+  <a href="scoopsquare.php" id="project_link">Next &#10095;</a>
+</div>
+        <!------------end pagination------------>
 
     </div> <!---end testimonials-->
 
 </main>
-<!--   <        aside class="item related-links">Related Links</aside> -->
-<aside>
-    <!--
-<h2>Platforms I use</h2>
-<ul>
-<li>WordPress</li>
-<li>SquareUp</li>
-<li>GoDaddy</li>
-<li>Wix</li>
-</ul>
--->
-    <!--
-<h2>Skills</h2>    
-<ul>
-<li>Web audit</li>
-<li>Research &amp; documentation </li>
-<li>Web content planning</li>
-<li>Layout designing</li>
-<li>Wireframing</li>
-<li>Responsive Design</li>
-<li>HTML, CSS, PHP</li>
-
-</ul>
--->
-    <!--
-<h2>Work</h2>
-<ul>
-<li><a href="https://www.scoopmarketplace.com/" target="_blank">Scoop Marketplace</a></li>
-<li><a href="https://www.shopscooponline.com/" target="_blank">Scoop Marketplace Online Shop</a></li>
-
-</ul>
--->
-</aside>
 
 <?php 
 include('includes/footer.php');
