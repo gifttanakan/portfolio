@@ -1,2 +1,3 @@
 # This is source code for my portfolio 
-View the portfolio here: https://www.gifttanakan.com/
+This portfolio is built with HTML, CSS, JS, PHP
+
